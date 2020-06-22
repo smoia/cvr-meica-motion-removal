@@ -1,9 +1,9 @@
 # Site settings
-title: Spectral
-email: youremailaddress@gmail.com
-description: The Jekyll version of the Spectral theme by HTML5 UP.
-baseurl: "/spectral-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+title: Spectral_SPiN
+email: s.mois@bcbl.eu
+description: The Jekyll version of the Spectral theme by HTML5 UP, adapted for pub pages.
+baseurl: "/cvr-meica-motion-removal" # the subpath of your site, e.g. /blog
+url: "https://smoia.github.io" # the base hostname & protocol for your site
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
