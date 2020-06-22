@@ -1,8 +1,12 @@
 ---
 layout: post
-title: Tortor dolore feugiat elementum magna
-description: Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-image: pic02.jpg
+title: Methods
+description: We asked 7 subects to undergo 10 MRI sessions, one week apart, and perform a BH task. We acquired ME data and applied different ME-ICA based denoising to remove motion effects. We then compared the reliability of each pipeline using intraclass correlation coefficient.
+image: methods.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Seven healthy volunteers underwent 10 MRI sessions in a 3T Siemens PrismaFit scanner, spaced 1-week apart at the same time of day. A BH task adapted from [2] was administered at each session (Fig. 1B) while collecting ME-fMRI data (340 scans, TR=1.5 s, TEs=10.6/28.69/46.78/64.87/82.96 ms, flip angle=70°, MB=4, GRAPPA=2, 52 slices, Partial-Fourier=6/8, FoV=211x211 mm2, voxel
+size=2.4x2.4x3 mm3).
+CO2 levels were measured using a nasal cannula, a gas analyzer (ADInstruments), and a BIOPAC MP150 system.
+After data preprocessing (Fig. 1A), CVR and lag maps were first obtained in the second TE (echo-2) and optcom data (GLM with lagged HRF-convolved PETCO2 timeseries as covariate of interest; 12 motion parameters and Legendre polynomials as nuisance regressors [5], Fig. 1C). More information can be found in this conference proceeding [5].
+The optimally combined volume was decomposed using ME-ICA [6], then noise and signal ICs were manually labelled, and three additional extended GLMs were created: adding the noise ICs timeseries directly as additional nuisance regressors (meica-agg); orthogonalized w.r.t. the PETCO2 trace (meica-ort); or orthogonalised w.r.t. the PETCO2 trace and signal ICs timeseries (meica-con). FD and DVARS were computed before realignment (pre) and after removal of the fitted nuisance regressors from echo-2 and optcom data. ICC(2,1) [7] was computed on the CVR and lag maps in MNI space to assess their reliability across sessions.
