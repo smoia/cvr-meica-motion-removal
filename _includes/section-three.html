@@ -7,7 +7,7 @@
 
             {% for post in site.posts limit:5 %}
 
-                <h3>{{ post.title }}</h3>
+                <h3 id="{{ post.title }}">{{ post.title }}</h3>
                 <p>{{ post.content }}</p>
 
             {% endfor %}
