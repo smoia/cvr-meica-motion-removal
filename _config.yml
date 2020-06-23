@@ -1,5 +1,5 @@
 # Site settings
-title: Cleaning CVR with ME&ICA
+title: Cleaning CVR with Multi-Echo ICA
 email: s.mois@bcbl.eu
 description: ICA-based denoising strategies in highly motion correlated tasks with Multi-Echo BOLD fMRI
 baseurl: "/cvr-meica-motion-removal" # the subpath of your site, e.g. /blog
