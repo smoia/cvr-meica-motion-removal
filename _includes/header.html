@@ -16,7 +16,9 @@
 							<li><a href="#three">Full text</a>
 								<ol>
 									{% for post in site.posts %}
-									<li><a href="#{{ post.title }}" class="link">{{ post.title }}</a></li>
+									<li style="font-size: 0.7em; text-decoration: none; text-transform: uppercase; line-height: 0.8em;">
+										<a href="#{{ post.title }}" class="link">{{ post.title }}</a>
+									</li>
 									{% endfor %}
 								</ol>
 							</li>
