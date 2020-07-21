@@ -32,6 +32,7 @@ tiles-count: 3
 # Outreach Data
 out_title: Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI
 out_authors: Stefano Moia, Maite Termenon, Eneko Uruñuela, Rachael Stickland, Molly Bright, César Caballero-Gaudes
+take_home: To improve breath-hold induced CVR estimation, noisy ICs must be added to the regression model after orthogonalization to the signals of interests and other BOLD-related ICs
 downloadable:
   - {name: ISMRM2020, file: 3829_ISMRM_Moia.pdf, type: poster}
   - {name: OHBM2020, file: Moia_OHBM_1509.pdf, type: poster}
