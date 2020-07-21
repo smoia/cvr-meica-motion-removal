@@ -1,18 +1,19 @@
 # Site settings
-title: Cleaning CVR with Multi-Echo ICA
+title: Cleaning CVR maps with Multi-Echo BOLD fMRI
 email: s.moia@bcbl.eu
 description: Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI
 baseurl: "/cvr-meica-motion-removal" # the subpath of your site, e.g. /blog
 url: "https://smoia.github.io" # the base hostname & protocol for your site
 
-# Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 3
-
 # Misc settings
 featured-image-source:
 
-# Social settings
+# Build settings
+markdown: kramdown
+collections:
+  - sections
+
+# Social settings (Will appear in the footer)
 500px_url:
 facebook_url:
 github_url: https://smoia.github.io
@@ -24,8 +25,9 @@ pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/SteMoia
 
-# Build settings
-markdown: kramdown
+# Homepage tiles (The "in a nutshell")
+tiles-source: sections # accepts "sections", "posts" or "pages"
+tiles-count: 3
 
 # Outreach Data
 out_title: Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI
