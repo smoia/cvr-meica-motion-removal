@@ -8,29 +8,29 @@
 {% include head.html %}
 
 <body>
-    {% include header.html %}
+	{% include header.html %}
 
-    <!-- Main -->
-    <article id="main">
-        <header{% if page.image %} style="background-image: url('{% if site.featured-image-source %}{{ page.image | prepend: site.featured-image-source | absolute_url }}{% else %}{{ "" | absolute_url }}/assets/images/{{ page.image }}{% endif %}');"{% endif %}>
-            <h2>{{ site.title }}</h2>
-            <p>{{ site.description }}</p>
-        </header>
-        <section class="wrapper style5">
-            <div class="inner">
+	<!-- Main -->
+	<article id="main">
+		<header{% if page.image %} style="background-image: url('{% if site.featured-image-source %}{{ page.image | prepend: site.featured-image-source | absolute_url }}{% else %}{{ "" | absolute_url }}/assets/images/{{ page.image }}{% endif %}');"{% endif %}>
+			<h2>{{ site.title }}</h2>
+			<p>{{ site.description }}</p>
+		</header>
+		<section class="wrapper style5">
+			<div class="inner">
 
-            {% for post in site.posts limit:5 %}
+			{% for post in site.posts limit:5 %}
 
-                <h3>{{ post.title }}</h3>
-                <p>{{ post.content }}</p>
+				<h3>{{ post.title }}</h3>
+				<p>{{ post.content }}</p>
 
-            {% endfor %}
+			{% endfor %}
 
-            </div>
-        </section>
-    </article>
+			</div>
+		</section>
+	</article>
 
-    {% include footer.html %}
+	{% include footer.html %}
 
 </body>
 
