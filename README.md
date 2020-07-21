@@ -1,6 +1,6 @@
 # Spectral - Jekyll Theme
 
-A Jekyll version of the "Spectral" theme by [HTML5 UP](https://html5up.net/).
+A modified version of the Jekyll version of the "Spectral" theme by [HTML5 UP](https://html5up.net/), adapted for publications and scientific communication in general (yes, it's a modception).
 
 ![Spectral Theme](screenshot.jpg "Spectral Theme")
 
@@ -11,23 +11,18 @@ or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontm
 and [creating pages](https://jekyllrb.com/docs/pages/).
 
 - **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file! The `.gitlab-ci.yml` file is only needed for GitLab Pages, so feel free to delete this if you are using GitHub instead.
+- **GitHub**: Simply fork this repository and start editing the `_config.yml` file! The `.gitlab-ci.yml` file is only needed for GitLab Pages, so feel free to delete this if you are using GitHub instead.
 
 # Added Features
 
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* **Coming soon**: Set **featured images** in front matter.
-* **Coming soon**: Front page sections automatically pull from posts.
+This is basically a version of [this GitLab repository](https://gitlab.com/andrewbanchich/spectral-jekyll-theme) made by [Andrew Banchich](https://github.com/andrewbanchich). I'll try to keep up with it for new features.
 
-# Issues
-
-If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/spectral-jekyll-theme) and I will be more than happy to help!
-
-Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/spectral-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/spectral-jekyll-theme@incoming.gitlab.com).
-
-The GitHub repository is simply a mirror of the GitLab repository.
+Essentially, the other feature added on top of it is a bit of work under the hood to make it easy to use for scientific communication.
 
 # Credits
+
+Credit for the Jekyll adaptation of the "Spectral" theme by [HTML5 UP](https://html5up.net/) goes to [Andrew Banchich](https://github.com/andrewbanchich). His adaptation is shared under a CCA 3.0 license, which is adopted by this adaptation as well.
+
 
 Original README from HTML5 UP:
 
