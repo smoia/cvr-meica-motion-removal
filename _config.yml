@@ -1,7 +1,7 @@
 # Site settings
 title: Cleaning CVR with Multi-Echo ICA
 email: s.moia@bcbl.eu
-description: ICA-based denoising strategies in highly motion correlated tasks with Multi-Echo BOLD fMRI
+description: Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI
 baseurl: "/cvr-meica-motion-removal" # the subpath of your site, e.g. /blog
 url: "https://smoia.github.io" # the base hostname & protocol for your site
 
@@ -28,5 +28,8 @@ twitter_url: https://twitter.com/SteMoia
 markdown: kramdown
 
 # Outreach Data
-out_title: ICA-based denoising strategies in highly motion correlated tasks with Multi-Echo BOLD fMRI
+out_title: Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI
 out_authors: Stefano Moia, Maite Termenon, Eneko Uruñuela, Rachael Stickland, Molly Bright, César Caballero-Gaudes
+downloadable:
+  - {name: ISMRM2020, file: 3829_ISMRM_Moia.pdf, type: poster}
+  - {name: OHBM2020, file: Moia_OHBM_1509.pdf, type: poster}
