@@ -26,3 +26,7 @@ twitter_url: https://twitter.com/SteMoia
 
 # Build settings
 markdown: kramdown
+
+# Outreach Data
+out_title: ICA-based denoising strategies in highly motion correlated tasks with Multi-Echo BOLD fMRI
+out_authors: Stefano Moia, Maite Termenon, Eneko Uruñuela, Rachael Stickland, Molly Bright, César Caballero-Gaudes
