@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Results
-description: Considering the relationship between FD and DVARS and the ICC analysis, a conservative ME-ICA denoising approach is the best way to reduce impact of motion without compromising reliability in CVR mapping. Otherwise, a conventional optcom approach is recommended, but with less reduction of motion effects.
+description: Considering the relationship between FD and DVARS and the ICC analysis, a conservative ME-ICA denoising approach is the best way to reduce impact of motion without compromising reliability in CVR mapping. Otherwise, a conventional OC approach is recommended, but with less reduction of motion effects.
 image: results.png
 ---
 
-Considering the relationship between FD and DVARS (Fig. 4) and the ICC analysis (Fig. 5), a conservative ME-ICA denoising approach is the best way to reduce impact of motion without compromising reliability in CVR mapping. Otherwise, a conventional optcom approach is recommended, but with less reduction of motion effects. Further studies should extend these results to other fMRI with substantial collinear artefacts
+Considering the relationship between FD and DVARS (Fig. 4) and the ICC analysis (Fig. 5), a conservative ME-ICA denoising approach is the best way to reduce impact of motion without compromising reliability in CVR mapping. Otherwise, a conventional OC approach is recommended, but with less reduction of motion effects. Further studies should extend these results to other fMRI with substantial collinear artefacts.
 
 
 <img src="assets/images/results_1.png" style="max-width:100%;display:block;" align="center" />
